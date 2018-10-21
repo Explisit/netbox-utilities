@@ -12,3 +12,7 @@ Utilities for Netbox management
 * vCenter_Netbox_Log_Cleanup.xml - Windows scheduled task example for cleaning log files older than 1 week
 * vCenter_Netbox_Sync.xml - Windows scheduled task example for running the Sync-Netbox script nightly
 * netbox_inventory.py - Generate an Ansible inventory file from Netbox
+
+# Additions
+vSphere-Netbox-Sync-Hosts-Svet.ps1	- Script for host sync to Netbox - WIP
+vSphere-Netbox-Sync-VMs-Svet.ps1 - Script for VM sync to Netbox - changed a bit from the original version and extend the functionality
